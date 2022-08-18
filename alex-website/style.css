@@ -1,18 +1,14 @@
 /*Global style*/
 
-html
-{
-    background-color: black;
-}
-.title
-{
-    color: rgb(169, 215, 255);
-}
-.tagline
-{
-    color: rgb(179, 0, 255);
-}
-.content
-{
-    color: white;
-}
+/*Page background style*/
+html {background-color: black;}
+
+/*Page heading style*/
+.title {color: rgb(169, 215, 255);}
+.tagline {color: rgb(179, 0, 255);}
+
+/*Page body content style*/
+.content {color: white;}
+
+/*Sets the styles for the individual entries*/
+.entry {border-style: solid;}
