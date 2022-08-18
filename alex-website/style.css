@@ -1,0 +1,18 @@
+/*Global style*/
+
+html
+{
+    background-color: black;
+}
+.title
+{
+    color: rgb(169, 215, 255);
+}
+.tagline
+{
+    color: rgb(179, 0, 255);
+}
+.content
+{
+    color: white;
+}
