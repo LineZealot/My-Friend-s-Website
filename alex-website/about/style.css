@@ -1,4 +1,7 @@
 /*Global style*/
+body, html {
+    height: 100%;
+}
 
 a {
     text-decoration: none;
@@ -89,30 +92,34 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
     gap: 16px;
     padding-top: 32px;
-    padding-right: 116px;
-    padding-left: 116px;
+    padding-right: 224px;
+    padding-left: 224px;
 }
 
-/*Sets the styles for the individual entries*/
-.entry {
+/*Profile picture stylings*/
+.profile_image {
+    height: 220px;
+    width: 220px;
+    display: flex;
+    margin-bottom: 32px;
+    border-radius: 120px;
+}
+
+/*Sets the styles for the about page content*/
+.about_content {
     border: solid rgb(241, 241, 240) 2px;
     border-radius: 12px;
-    background-color: rgb(33, 19, 37);
+    background-color: rgb(41, 41, 41);
     display: flex;
     flex-direction: column;
     padding-left: 48px;
     padding-right: 48px;
     padding-top: 24px;
     padding-bottom: 24px;
-}
-
-.quote {
     font-size: 18px;
-}
-
-.date {
-    font-size: 12px;
 }
